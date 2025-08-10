@@ -21,10 +21,10 @@
     ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
     │   └── figures        <- Generated graphics and figures to be used in reporting
     │
-    ├── poetry.lock   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `poetry lock > poetry.lock`
+    ├── uv.lock   <- The requirements file for reproducing the analysis environment, e.g.
+    │                         generated with `uv lock > uv.lock`
     │
-    ├── pyptoject.toml    <- makes project poetry installable (poetry installs) so src can be imported
+    ├── pyptoject.toml    <- makes project uv installable (uv installs) so src can be imported
     ├── src                <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
