@@ -1,9 +1,9 @@
 {
     "project_name": "My ML Project",
+    "project_slug": "my_ml_project",
     "description": "Reproducible ML project scaffold powered by uv",
     "full_name": "Your Name",
     "email": "[email protected]",
     "license": ["MIT", "Apache-2.0", "BSD-3-Clause", "Proprietary"],
-    "python_version": "3.12",
-    "include_pytest": "n"
+    "python_version": "3.12"
   }
