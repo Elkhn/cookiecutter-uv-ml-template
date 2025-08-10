@@ -1,7 +1,5 @@
 {
     "project_name": "My ML Project",
-    "project_slug": "my_ml_project",
-    "package_name": "my_ml_project",
     "description": "Reproducible ML project scaffold powered by uv",
     "full_name": "Your Name",
     "email": "[email protected]",
