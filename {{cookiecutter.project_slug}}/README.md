@@ -55,5 +55,5 @@ uv sync
 uv add numpy
 
 # run code
-uv run python -m {{ cookiecutter.package_name }}.models.train_model
+uv run python -m {{ cookiecutter.project_slug }}.models.train_model
 ```
