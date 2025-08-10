@@ -57,3 +57,28 @@ uv add numpy
 # run code
 uv run python -m src.models.train_model
 ```
+
+## Code quality (ruff, isort, black via uvx)
+### Run tools in ephemeral envs — no dev dependencies added to your project.
+
+#### Lint (no changes)
+```bash
+# Lint entire repo
+uvx ruff check .
+```
+
+#### Auto-fix
+```bash
+# 1) Sort imports
+uvx isort .
+
+# 2) Format code
+uvx black .
+
+# 3) Apply Ruff’s safe fixes (entire repo)
+uvx ruff check --fix .
+```
+> Also remove unused imports/variables:
+> ```bash
+> uvx ruff check --fix --unsafe-fixes .
+> ```
