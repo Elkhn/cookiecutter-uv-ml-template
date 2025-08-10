@@ -1,0 +1,10 @@
+[project]
+name = "{{ cookiecutter.package_name }}"
+version = "0.1.0"
+description = "{{ cookiecutter.description }}"
+readme = "README.md"
+requires-python = ">= {{ cookiecutter.python_version }}"
+authors = [{ name = "{{ cookiecutter.full_name }}", email = "{{ cookiecutter.email }}" }]
+dependencies = [
+    # runtime deps go here, e.g. "pandas>=2.2"
+]
