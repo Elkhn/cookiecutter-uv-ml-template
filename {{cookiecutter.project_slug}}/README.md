@@ -1,5 +1,12 @@
 # {{ cookiecutter.project_name }}
 
+![Build Status](https://github.com/{{ cookiecutter.full_name }}/{{ cookiecutter.project_slug }}/actions/workflows/ci-build.yaml/badge.svg)
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![{{ cookiecutter.python_version }}](https://img.shields.io/badge/Python-{{ cookiecutter.python_version }}-green.svg)](https://shields.io/)
+
+---
+
 {{ cookiecutter.description }}
 
 ## Structure
