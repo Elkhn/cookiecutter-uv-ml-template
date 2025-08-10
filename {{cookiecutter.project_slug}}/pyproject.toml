@@ -8,3 +8,16 @@ authors = [{ name = "{{ cookiecutter.full_name }}", email = "{{ cookiecutter.ema
 dependencies = [
     # runtime deps go here, e.g. "pandas>=2.2"
 ]
+
+# [tool.ruff]
+# lint.extend-select = ["ALL"]
+
+[tool.black]
+line-length = 100
+extend-exclude = '^(data|reports|models|notebooks)/'
+
+[tool.isort]
+profile = "black" # keeps isort compatible with Black
+line_length = 100
+src_paths = ["src"]
+extend_skip = ["data", "reports", "models", "notebooks"]
