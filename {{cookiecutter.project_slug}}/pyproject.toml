@@ -19,5 +19,4 @@ extend-exclude = '^(data|reports|models|notebooks)/'
 [tool.isort]
 profile = "black" # keeps isort compatible with Black
 line_length = 100
-src_paths = ["src"]
-extend_skip = ["data", "reports", "models", "notebooks"]
+skip_glob = ["data/**", "reports/**", "models/**", "notebooks/**"]
